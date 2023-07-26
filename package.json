@@ -1,0 +1,33 @@
+{
+  "name": "owa-desktop",
+  "version": "1.0.0",
+  "productName": "Outlook Desktop",
+  "description": "A simple Outlook Web (Office 365) Desktop application, built using Electron.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron .",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikepruett3/owa-desktop.git"
+  },
+  "keywords": [
+    "Electron",
+    "Outlook",
+    "Office 365"
+  ],
+  "author": {
+    "name": "Mike Pruett",
+    "email": "mikepruett3@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikepruett3/owa-desktop/issues"
+  },
+  "homepage": "https://github.com/mikepruett3/owa-desktop#readme",
+  "dependencies": {
+    "electron": "^25.0.1",
+    "electron-context-menu": "^3.6.1"
+  }
+}
