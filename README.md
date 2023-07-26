@@ -42,3 +42,7 @@ npm run make
 - publisher-github
 - electron-forge
 - electron
+
+## Errata
+
+Logo borrowed from [Seeklogo](https://seeklogo.com/vector-logo/266581/outlook)
