@@ -6,7 +6,10 @@
   "main": "main.js",
   "scripts": {
     "test": "electron .",
-    "start": "electron ."
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
   },
   "repository": {
     "type": "git",
@@ -26,8 +29,17 @@
     "url": "https://github.com/mikepruett3/owa-desktop/issues"
   },
   "homepage": "https://github.com/mikepruett3/owa-desktop#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.2.1",
+    "@electron-forge/maker-deb": "^6.2.1",
+    "@electron-forge/maker-rpm": "^6.2.1",
+    "@electron-forge/maker-squirrel": "^6.2.1",
+    "@electron-forge/maker-zip": "^6.2.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.2.1",
+    "@electron-forge/publisher-github": "^6.2.1",
+    "electron": "^25.3.1"
+  },
   "dependencies": {
-    "electron": "^25.0.1",
-    "electron-context-menu": "^3.6.1"
+    "electron-squirrel-startup": "^1.0.0"
   }
 }

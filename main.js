@@ -1,7 +1,7 @@
 // main.js
 
 // https://www.electronforge.io/config/makers/squirrel.windows
-//if (require('electron-squirrel-startup')) return;
+if (require('electron-squirrel-startup')) return;
 
 const { app, shell, BrowserWindow, Menu, MenuItem } = require('electron');
 
