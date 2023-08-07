@@ -2,6 +2,10 @@
 
 Outlook Desktop is a simple  Outlook Web (Office 365) Desktop application, built using [ElectronJS](https://www.electronjs.org).
 
+## Features (Tray)
+
+- Control for Hardware Acceleration
+
 ## Installation
 
 Dowload the lates [release](https://github.com/mikepruett3/owa-desktop/releases) for Windows. Unfortunatley I am not able to provide packages for Linux or MacOS at this time.
@@ -41,6 +45,7 @@ npm run make
 - electron-squirrel-startup
 - publisher-github
 - electron-forge
+- electron-storage
 - electron
 
 ## Errata

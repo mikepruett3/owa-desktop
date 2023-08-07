@@ -1,6 +1,6 @@
 {
   "name": "owa-desktop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "productName": "Outlook Desktop",
   "description": "A simple Outlook Web (Office 365) Desktop application, built using Electron.js",
   "main": "main.js",
@@ -40,6 +40,7 @@
     "electron": "^25.3.1"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^8.1.0"
   }
 }

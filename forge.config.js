@@ -1,6 +1,13 @@
 module.exports = {
   packagerConfig: {
     asar: true,
+    protocols: [
+      {
+        protocol: 'mailto',
+        name: 'mailto',
+        schemes: 'mailto'
+      }
+    ],
     executableName: 'owa-desktop',
     icon: __dirname + '/images/Outlook'
   },
@@ -9,7 +16,7 @@ module.exports = {
     {
       name: '@electron-forge/maker-squirrel',
       config: {
-        iconUrl: __dirname + '/images/Outlook.ico',
+        iconUrl: 'https://raw.githubusercontent.com/mikepruett3/owa-desktop/main/images/Outlook.ico',
         setupIcon: './images/Outlook.ico'
       },
     },
